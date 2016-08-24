@@ -1,0 +1,13 @@
+# Codebook
+Here variables and summaries from the output csv of the R script are described.
+It is assumed that the reader has read the README files of the assignment.
+
+## Variables
+- volunteer: The subject who performed the activity for each measure. There were 30 volunteers.
+- activity: Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+wearing a smartphone (Samsung Galaxy S II) on the waist.
+
+## Summaries
+The calculations made all give out the mean of the specific measure for the regared volunteer and acitivity.
+For example the first calculation tBodyAcc-mean()-X cCalculates the mean for the volunteer and the activity of the measure tBodyAcc-mean()-X.
+The measures were described in the README file of the assignment.
