@@ -8,7 +8,7 @@ For the training data, the following files are read into:
 - X_train
 - y_train
 - subject_train
-- 
+
 A data frame is created by cbind. Then the activity names are merged to the table, mapping the activity codes to a descriptive name.
 The same is done for the test sets. Both are concatenated by the rbind function.
 
