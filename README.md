@@ -4,7 +4,7 @@ This project contains an R script, that reads in, cleans and gives out a tidy da
 
 ## The R Script
 First of all the text file features.txt and activity_lables.txt are read in, because they are independet from the test and training set. Then a loop is created to go through the relevant training and test textfiles and concatenates them in the end.
-For the training data, the following files are read into:
+For the training data, the following files are read into R:
 - X_train
 - y_train
 - subject_train
@@ -14,6 +14,6 @@ The same is done for the test sets. Both are concatenated by the rbind function.
 
 In the next step, only measurement columns containing "mean" or "sd" are extracted by using the function grepl.
 
-In a last step the new data set is grouped by the volunteer and his/her activity and the mean calculated for all remaining variables.
+In a last step the new data set is grouped by the volunteer and his/her activity and the mean calculated for all remaining variables using the dyplr package.
 
 ## The Codebook
