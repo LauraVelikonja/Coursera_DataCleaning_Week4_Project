@@ -1,6 +1,6 @@
 # Coursera_DataCleaning_Week4_Project
 
-This project contains an R script, that reads in, cleans and gives out a tidy data sets and a codebook, which explains all relevant variables and summaries made.
+This project contains an R script, that reads in, cleans and gives out a tidy data sets and a codebook, which explains all relevant variables and summaries made. Here the R script is explained:
 
 ## The R Script
 First of all the text file features.txt and activity_lables.txt are read in, because they are independet from the test and training set. Then a loop is created to go through the relevant training and test textfiles and concatenates them in the end.
@@ -16,4 +16,4 @@ In the next step, only measurement columns containing "mean" or "sd" are extract
 
 In a last step the new data set is grouped by the volunteer and his/her activity and the mean calculated for all remaining variables using the dyplr package.
 
-## The Codebook
+
